@@ -313,6 +313,10 @@ lib/libcameraservice.so
 system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:lib/vendor.qti.hardware.camera.device@1.0.so
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so:lib/vendor.qti.hardware.camera.device@3.5.so
 
+# Display calibration
+vendor/etc/hdr_config.cfg
+vendor/etc/sdr_config.cfg
+
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.sm6150.so
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so
