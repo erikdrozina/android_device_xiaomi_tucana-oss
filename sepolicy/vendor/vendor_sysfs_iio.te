@@ -1,0 +1,1 @@
+allow vendor_sysfs_iio tmpfs:filesystem associate;
