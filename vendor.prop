@@ -3,16 +3,31 @@ persist.vendor.audio.hifi=false
 persist.vendor.audio.ring.filter.mask=0
 ro.vendor.audio.sdk.fluencetype=fluence
 ro.vendor.audio.soundfx.usb=true
+ro.vendor.audio.us.proximity=true
 ro.vendor.audio.us.type=mius
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=false
+
+# Camera
+persist.camera.sat.fallback.dist=40
+persist.camera.sat.fallback.dist.d=10
+persist.camera.sat.fallback.luxindex=330
+persist.camera.sat.fallback.lux.d=50
+persist.vendor.camera.enableNCSService=TRUE
+persist.vendor.camera.enableTOFInterface=TRUE
+persist.radio.VT_CAM_INTERFACE=1
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM7150
 
+# Fingerprint
+persist.vendor.sys.fp.fod.location.X=445
+persist.vendor.sys.fp.fod.location.Y=1715
+persist.vendor.sys.fp.fod.size=190
+
 # HVDCP
 persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
-persist.vendor.cp.support_qc3p5=0
+persist.vendor.cp.support_qc3p5=1
 persist.vendor.cp.taper_term_mv=7000
