@@ -15,6 +15,7 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Audio
 PRODUCT_PACKAGES += \
+    audio_amplifier.sm6150 \
     libqcomvoiceprocessingdescriptors \
     libtinycompress \
     tinymix
