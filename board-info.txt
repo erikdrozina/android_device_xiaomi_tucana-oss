@@ -1,1 +1,2 @@
-require version-baseband=GLOBAL,4.3.c5-00100,V12.5.1.0.RFNMIXM
+require version-baseband=CN,4.3.c5-00100,V12.5.4.0.RFDCNXM
+require version-baseband=GLOBAL,4.3.c5-00100,V12.5.3.0.RFDMIXM
