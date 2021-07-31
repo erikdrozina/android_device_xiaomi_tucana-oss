@@ -14,10 +14,10 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.toco",
+    name: "vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.tucana",
     defaults: ["hidl_defaults"],
-    vintf_fragments: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.toco.xml"],
-    init_rc: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.toco.rc"],
+    vintf_fragments: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.tucana.xml"],
+    init_rc: ["vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.tucana.rc"],
     relative_install_path: "hw",
     srcs: [
         "service.cpp",
@@ -36,7 +36,7 @@ cc_binary {
 }
 
 cc_library_static {
-    name: "libfod_extension.toco",
+    name: "libfod_extension.tucana",
     srcs: ["FodExtension.cpp"],
     include_dirs: [
         "frameworks/native/services/surfaceflinger/CompositionEngine/include",

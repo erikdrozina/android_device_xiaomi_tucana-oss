@@ -220,6 +220,7 @@ vendor/lib64/libmibokeh_712.so
 vendor/lib64/libXMFD_AgeGender.so
 
 # Fingerprint
+vendor/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.sm6150.so
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so
 vendor/lib64/libgf_hal.so
 

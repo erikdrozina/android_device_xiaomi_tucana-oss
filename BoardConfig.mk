@@ -15,7 +15,7 @@ DEVICE_PATH := device/xiaomi/tucana
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # FOD
-TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.toco
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.tucana
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
