@@ -105,4 +105,4 @@ PRODUCT_PACKAGES += \
     TocoWifiOverlay
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/toco/toco-vendor.mk)
+$(call inherit-product, vendor/xiaomi/tucana/tucana-vendor.mk)

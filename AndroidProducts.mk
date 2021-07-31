@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_toco.mk
+    $(LOCAL_DIR)/lineage_tucana.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_toco-user \
-    lineage_toco-userdebug \
-    lineage_toco-eng
+    lineage_tucana-user \
+    lineage_tucana-userdebug \
+    lineage_tucana-eng
