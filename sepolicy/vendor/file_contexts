@@ -4,6 +4,9 @@
 # Display
 /sys/devices/platform/soc/soc:qcom,dsi-display/fod_ui                u:object_r:sysfs_fod:s0
 
+# Fastcharge
+/vendor/bin/init\.fastcharge\.sh      u:object_r:init-fastcharge-sh_exec:s0
+
 # HALs
 /vendor/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1\.0-service\.tucana u:object_r:hal_lineage_fod_default_exec:s0
 

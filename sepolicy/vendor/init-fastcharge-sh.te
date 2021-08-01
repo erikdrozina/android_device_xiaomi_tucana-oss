@@ -1,0 +1,12 @@
+type init-fastcharge-sh, domain;
+type init-fastcharge-sh_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(init-fastcharge-sh)
+
+allow init-fastcharge-sh init-fastcharge-sh:capability fowner;
+
+allow init-fastcharge-sh vendor_shell_exec:file rx_file_perms;
+allow init-fastcharge-sh vendor_toolbox_exec:file rx_file_perms;
+
+allow init-fastcharge-sh vendor_sysfs_battery_supply:dir search;
+allow init-fastcharge-sh vendor_sysfs_battery_supply:file {open write getattr setattr};

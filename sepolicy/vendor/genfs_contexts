@@ -3,3 +3,7 @@ genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify 
 
 # bq2597x charge pump
 genfscon sysfs /devices/platform/soc/a8c000.i2c/i2c-2/2-0066/power_supply/bq2597x-standalone u:object_r:vendor_sysfs_usb_supply:s0
+
+# fastcharge
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/main/main_fcc_max    u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/main/force_main_fcc  u:object_r:vendor_sysfs_battery_supply:s0
