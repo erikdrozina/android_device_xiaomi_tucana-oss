@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
 # API level, the device has been commercially launched on
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Audio
 PRODUCT_PACKAGES += \
