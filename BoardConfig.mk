@@ -21,6 +21,10 @@ TARGET_USES_FOD_ZPOS := true
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tucana
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tucana
+
 # Kernel
 TARGET_KERNEL_CONFIG := tucana_defconfig
 
