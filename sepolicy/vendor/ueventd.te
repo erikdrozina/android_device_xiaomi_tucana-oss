@@ -1,2 +1,2 @@
 allow ueventd metadata_file:dir search;
-allow ueventd vendor_sysfs_iio:chr_file create;
+allow ueventd vendor_sysfs_iio:chr_file {create setattr};
