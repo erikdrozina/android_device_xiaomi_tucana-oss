@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tucana device
 $(call inherit-product, device/xiaomi/tucana/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Arrow stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-PRODUCT_NAME := lineage_tucana
+PRODUCT_NAME := arrow_tucana
 PRODUCT_DEVICE := tucana
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi Note 10
