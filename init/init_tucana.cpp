@@ -60,14 +60,14 @@ void vendor_load_properties() {
     {
         property_override("ro.product.model", "MI CC9 Pro");
         property_override("ro.build.description", "tucana_eea-user 11 RKQ1.200826.002 V12.1.3.0.RFDEUXM release-keys");
-        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RD1A.200810.020/6792687:user/release-keys");
-        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RD1A.200810.020/6792687:user/release-keys");
+        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
     }
     else if (region == "GLOBAL")
     {
         property_override("ro.product.model", "Mi Note 10");
         property_override("ro.build.description", "tucana_eea-user 11 RKQ1.200826.002 V12.1.3.0.RFDEUXM release-keys");
-        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RD1A.200810.020/6792687:user/release-keys");
-        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RD1A.200810.020/6792687:user/release-keys");
+        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
+        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys");
     }
 }
