@@ -27,3 +27,7 @@ persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.qc3p5_vfloat_offset_uv=110000
 persist.vendor.cp.support_qc3p5=1
 persist.vendor.cp.taper_term_mv=7000
+
+# Octavi-OS
+ro.octavi.status=2.9 OFFICIAL
+ro.octavi.maintainer=erikdrozina
