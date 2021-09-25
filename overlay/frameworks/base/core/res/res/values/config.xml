@@ -260,4 +260,7 @@
     
     <!-- Hide FOD while Going to sleep from lockscreen to avoid HBM flicker -->
     <bool name="config_inDisplayFingerprintFlickersGoingToSleep">true</bool>
+
+    <!-- Default fod pressed color -->
+    <integer name="config_fod_pressed_color">4</integer>
 </resources>
