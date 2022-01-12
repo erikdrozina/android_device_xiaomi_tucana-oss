@@ -1,4 +1,4 @@
-<manifest version="2.0" type="device" target-level="4">
+<manifest version="4.0" type="device" target-level="4">
     <hal format="hidl">
         <name>android.hardware.ir</name>
         <transport>hwbinder</transport>
@@ -7,6 +7,7 @@
             <name>IConsumerIr</name>
             <instance>default</instance>
         </interface>
+        <fqname>@1.0::IConsumerIr/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.nfc</name>
@@ -16,6 +17,7 @@
             <name>INfc</name>
             <instance>default</instance>
         </interface>
+        <fqname>@1.2::INfc/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.sensors</name>
@@ -25,6 +27,7 @@
             <name>ISensors</name>
             <instance>default</instance>
         </interface>
+        <fqname>@1.0::ISensors/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.nxp.nxpese</name>
@@ -34,6 +37,7 @@
             <name>INxpEse</name>
             <instance>default</instance>
         </interface>
+        <fqname>@1.0::INxpEse/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.nxp.nxpnfc</name>
@@ -43,5 +47,6 @@
             <name>INxpNfc</name>
             <instance>default</instance>
         </interface>
+        <fqname>@1.0::INxpNfc/default</fqname>
     </hal>
 </manifest>
