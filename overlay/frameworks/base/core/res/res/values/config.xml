@@ -304,4 +304,7 @@
         <item>5</item>
         <item>5</item>
     </integer-array>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketUseLightSensor">false</bool>
 </resources>
