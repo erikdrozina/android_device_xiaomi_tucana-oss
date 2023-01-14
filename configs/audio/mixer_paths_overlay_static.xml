@@ -545,8 +545,8 @@
         <ctl name="TX SMIC MUX1" value="ADC3" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC3_MIXER Switch" value="1" />
-        <ctl name="ADC3 Volume" value="12" />
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC3 Volume" value="20" />
+        <ctl name="ADC1 Volume" value="20" />
     </path>
 
     <path name="speaker-dmic-endfire">
@@ -592,8 +592,8 @@
         <ctl name="TX SMIC MUX1" value="ADC3" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC3_MIXER Switch" value="1" />
-        <ctl name="ADC3 Volume" value="6" />
-        <ctl name="ADC1 Volume" value="6" />
+        <ctl name="ADC3 Volume" value="20" />
+        <ctl name="ADC1 Volume" value="20" />
     </path>
 
     <path name="handset-dmic-music">
